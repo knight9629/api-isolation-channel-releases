@@ -4,25 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>API 隔离通道</title>
         <item>
-            <title>2.4.0</title>
-            <pubDate>Mon, 17 Aug 2026 00:23:33 +0800</pubDate>
-            <link>https://github.com/knight9629/api-isolation-channel-releases/releases/tag/v2.4.0</link>
-            <sparkle:version>2.4.0</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <title>2.4.1</title>
+            <pubDate>Mon, 17 Aug 2026 10:54:55 +0800</pubDate>
+            <link>https://github.com/knight9629/api-isolation-channel-releases/releases/tag/v2.4.1</link>
+            <sparkle:version>2.4.1</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# API 隔离通道 v2.4.0
+            <description sparkle:format="markdown"><![CDATA[# API 隔离通道 v2.4.1
 
 - Apple Silicon Mac 版。
-- 增加 Sparkle 更新检查，安装前由用户确认。
-- 修复 Ads API 媒体类型透传。
+- 修复非主区域 Ads OAuth 授权无法保存及 managed SSH 绑定迁移问题。
+- 修复本地连接器可能把已派发写请求错误标记为未发送的问题。
+- 合并同一区域的 SP/Ads 状态，并统一 managed SSH 用户名校验。
+- 继续使用 Sparkle 用户确认更新；不会静默强制安装。
 
 注：本版未使用 Apple Developer ID 签名，也未公证。
 ]]></description>
-            <enclosure url="https://github.com/knight9629/api-isolation-channel-releases/releases/download/v2.4.0/API-Isolation-Channel-macOS-arm64-v2.4.0.dmg" length="82045617" type="application/octet-stream" sparkle:edSignature="f8eAeEZnXroF9hR4S22CvxFGfBaXwXWQ6fdNwCsLj9sW4wMHFaxBXjsF+2TLTyvKPNWCxWFAXzcs1wvvVi4HCg=="></enclosure>
+            <enclosure url="https://github.com/knight9629/api-isolation-channel-releases/releases/download/v2.4.1/API-Isolation-Channel-macOS-arm64-v2.4.1.dmg" length="82048696" type="application/octet-stream" sparkle:edSignature="76+AGeCgwFDtPDzt8qMQhbK7/Mk4hqKmoT2PNe9Z5N4Dgw4xo01Ru2ixFBRVy6j6MmUOhYqLNUEjjBXZK/KLBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 2JfTqQqQHwXb3a+SAuMRHbDynRlToQx8rErmOKaRFA5405axeBsWsI22Ug04n0ru9Qqs4sAJBrQFSbNiz6b0Dw==
-length: 1587
+edSignature: 0L0W7xQTK6DsuYRu4OQsqzWXIlWJa8Tw5lT7UOdSwYDal32O9h+8DHbL9LN77fZRVPFfPP9Kg55s/RQXRNs4DA==
+length: 1815
 -->
