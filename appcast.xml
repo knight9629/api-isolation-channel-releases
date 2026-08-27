@@ -4,27 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>API 隔离通道</title>
         <item>
-            <title>2.4.1</title>
-            <pubDate>Mon, 17 Aug 2026 10:54:55 +0800</pubDate>
-            <link>https://github.com/knight9629/api-isolation-channel-releases/releases/tag/v2.4.1</link>
-            <sparkle:version>2.4.1</sparkle:version>
-            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <title>2.4.6</title>
+            <pubDate>Thu, 27 Aug 2026 10:58:50 +0800</pubDate>
+            <link>https://github.com/knight9629/api-isolation-channel-releases/releases/tag/v2.4.6</link>
+            <sparkle:version>2.4.6</sparkle:version>
+            <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# API 隔离通道 v2.4.1
+            <description sparkle:format="markdown"><![CDATA[# API 隔离通道 v2.4.6
 
-- Apple Silicon Mac 版。
-- 修复非主区域 Ads OAuth 授权无法保存及 managed SSH 绑定迁移问题。
-- 修复本地连接器可能把已派发写请求错误标记为未发送的问题。
-- 合并同一区域的 SP/Ads 状态，并统一 managed SSH 用户名校验。
-- 继续使用 Sparkle 用户确认更新；不会静默强制安装。
+- 同一个版本提供 Apple Silicon Mac 与 Windows 11 x64 安装包。
+- Windows 增加每天自动检查、用户确认下载和用户确认安装的更新流程。
+- Windows 更新包必须通过版本、SHA-256 与 Ed25519 签名验证。
+- Windows 10 与 Windows ARM 可能不支持。
+- Mac 继续使用 Sparkle 用户确认更新；不会静默强制安装。
 
-注：本版未使用 Apple Developer ID 签名，也未公证。
+注：Mac 未使用 Apple Developer ID 签名且未公证；Windows 未使用 Authenticode。
 ]]></description>
-            <enclosure url="https://github.com/knight9629/api-isolation-channel-releases/releases/download/v2.4.1/API-Isolation-Channel-macOS-arm64-v2.4.1.dmg" length="82048696" type="application/octet-stream" sparkle:edSignature="76+AGeCgwFDtPDzt8qMQhbK7/Mk4hqKmoT2PNe9Z5N4Dgw4xo01Ru2ixFBRVy6j6MmUOhYqLNUEjjBXZK/KLBA=="></enclosure>
+            <enclosure url="https://github.com/knight9629/api-isolation-channel-releases/releases/download/v2.4.6/API-Isolation-Channel-macOS-arm64-v2.4.6.dmg" length="82351855" type="application/octet-stream" sparkle:edSignature="1VxFKDva6Mw9FnA6PZYwLlkMsXxYlpLDxbVWlHGoIzK9iWzM+EbK/TT1cv8khPPzSEh8uth7fN5Bi1OLXisnAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0L0W7xQTK6DsuYRu4OQsqzWXIlWJa8Tw5lT7UOdSwYDal32O9h+8DHbL9LN77fZRVPFfPP9Kg55s/RQXRNs4DA==
-length: 1815
+edSignature: ff90OpY+UuY/j54QfEDsM9TDMhzgRSHsUnDvHM9rNLp84krOwu36hCxL/aEBZtx82z7kbv62290hyjxpW3X6Aw==
+length: 1858
 -->
