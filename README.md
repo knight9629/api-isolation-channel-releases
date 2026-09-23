@@ -2,6 +2,8 @@
 
 稳定下载入口：[下载最新版](https://github.com/knight9629/api-isolation-channel-releases/releases/latest)
 
+当前稳定版：[v2.4.14](https://github.com/knight9629/api-isolation-channel-releases/releases/tag/v2.4.14)，同一版本提供 Mac DMG 与 Windows EXE，附 SHA-256 校验文件。
+
 - Apple Silicon Mac：macOS 12 及以上。
 - Windows：正式支持 Windows 11 x64；Windows 10 与 Windows ARM 可能不支持。
 
